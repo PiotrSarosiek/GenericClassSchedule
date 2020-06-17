@@ -1,0 +1,130 @@
+[
+  {
+    "Id": 1,
+    "Teachers": [
+      {
+        "Id": 1,
+        "Identity": "Janusz Nowak"
+      },
+      {
+        "Id": 2,
+        "Identity": "Andrzej Tomiczek"
+       }
+    ],
+    "Name": "Matematyka"
+  },
+  {
+    "Id": 2,
+    "Teachers": [
+      {
+        "Id": 1,
+        "Identity": "Krzysztof Krawczyk"
+      },
+      {
+        "Id": 2,
+        "Identity": "Andrzej Majda"
+
+      }
+    ],
+    "Name": "Informatyka"
+  },
+  {
+    "Id": 3,
+    "Teachers": [
+      {
+        "Id": 1,
+        "Identity": "Beata Kozidrak"
+      },
+      {
+        "Id": 2,
+        "Identity": "Mikolaj Kupernik"
+
+      }
+    ],
+    "Name": "Fizyka"
+  },
+  {
+    "Id": 4,
+    "Teachers": [
+      {
+        "Id": 1,
+        "Identity": "Walter White"
+      },
+      {
+        "Id": 2,
+        "Identity": "Pablo Escobar"
+
+      },
+      {
+        "Id": 3,
+        "Identity": "Maria Curie-Sklodowska"
+      },
+      {
+        "Id": 4,
+        "Identity": "Janusz Bimbrownik"
+      }
+    ],
+    "Name": "Chemia"
+  },
+  {
+    "Id": 5,
+    "Teachers": [
+      {
+        "Id": 1,
+        "Identity": "Krzysztof Kolumb"
+      },
+      {
+        "Id": 2,
+        "Identity": "Wojciech Cejrowski"
+
+      },
+      {
+        "Id": 3,
+        "Identity": "Odyseusz"
+      },
+      {
+        "Id": 4,
+        "Identity": "Adam Mickiewicz"
+      },
+      {
+        "Id": 5,
+        "Identity": "Edmund Strzelecki"
+      }
+    ],
+    "Name": "Geografia"
+  },
+  {
+    "Id": 6,
+    "Teachers": [
+      {
+        "Id": 1,
+        "Identity": "Krzysztof Krzyszton"
+      },
+      {
+        "Id": 2,
+        "Identity": "Jakub Burski"
+      },
+      {
+        "Id": 3,
+        "Identity": "Milena Starska"
+      },
+      {
+        "Id": 4,
+        "Identity": "Witold Latoszek"
+      },
+      {
+        "Id": 5,
+        "Identity": "Wiktor Banach"
+      },
+      {
+        "Id": 6,
+        "Identity": "Marcin Rozalski"
+      },
+      {
+        "Id": 7,
+        "Identity": "Roman Kidler"
+      }
+    ],
+    "Name": "Biologia"
+  }
+]

@@ -1,0 +1,102 @@
+﻿<Window x:Class="SI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1250">
+    <UniformGrid>
+       
+            
+            <StackPanel Margin="5">
+            <TextBlock FontSize="12" FontWeight="Heavy" TextAlignment="Center">Monday</TextBlock>
+            <ListView  x:Name="Mon">
+                <ListView.View>
+                    <GridView>
+                        <GridView.Columns>
+                            <GridViewColumn Header="LessonStart" DisplayMemberBinding="{Binding Path=Time.Start}"/>
+                            <GridViewColumn Header="LessonEnd" DisplayMemberBinding="{Binding Path=Time.End}"/>
+                            <GridViewColumn Header="Subject" DisplayMemberBinding="{Binding Path=Subject.Name}"/>
+                            <GridViewColumn Header="Teacher" DisplayMemberBinding="{Binding Path=TeacherName}"/>
+                            <GridViewColumn Header="Room" DisplayMemberBinding="{Binding Path=Room.Classnumber}"/>
+                        </GridView.Columns>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            
+        </StackPanel>
+
+        <StackPanel Margin="5">
+            <TextBlock FontSize="12" FontWeight="Heavy" TextAlignment="Center">Tuesday</TextBlock>
+            
+            <ListView x:Name="Tue">
+                <ListView.View>
+                    <GridView>
+                        <GridView.Columns>
+                            <GridViewColumn Header="LessonStart" DisplayMemberBinding="{Binding Path=Time.Start}"/>
+                            <GridViewColumn Header="LessonEnd" DisplayMemberBinding="{Binding Path=Time.End}"/>
+                            <GridViewColumn Header="Subject" DisplayMemberBinding="{Binding Path=Subject.Name}"/>
+                            <GridViewColumn Header="Teacher" DisplayMemberBinding="{Binding Path=TeacherName}"/>
+                            <GridViewColumn Header="Room" DisplayMemberBinding="{Binding Path=Room.Classnumber}"/>
+                        </GridView.Columns>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+        <StackPanel Margin="5">
+            <TextBlock FontSize="12" FontWeight="Heavy" TextAlignment="Center">Wednesday</TextBlock>
+            
+            <ListView  x:Name="Wed">
+                <ListView.View>
+                    <GridView>
+                        <GridView.Columns>
+                            <GridViewColumn Header="LessonStart" DisplayMemberBinding="{Binding Path=Time.Start}"/>
+                            <GridViewColumn Header="LessonEnd" DisplayMemberBinding="{Binding Path=Time.End}"/>
+                            <GridViewColumn Header="Subject" DisplayMemberBinding="{Binding Path=Subject.Name}"/>
+                            <GridViewColumn Header="Teacher" DisplayMemberBinding="{Binding Path=TeacherName}"/>
+                            <GridViewColumn Header="Room" DisplayMemberBinding="{Binding Path=Room.Classnumber}"/>
+                        </GridView.Columns>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+
+        <StackPanel Margin="5">
+            
+            <TextBlock FontSize="12" FontWeight="Heavy" TextAlignment="Center">Thursday</TextBlock>
+            
+            <ListView  x:Name="Thu">
+                <ListView.View>
+                    <GridView>
+                        <GridView.Columns>
+                            <GridViewColumn Header="LessonStart" DisplayMemberBinding="{Binding Path=Time.Start}"/>
+                            <GridViewColumn Header="LessonEnd" DisplayMemberBinding="{Binding Path=Time.End}"/>
+                            <GridViewColumn Header="Subject" DisplayMemberBinding="{Binding Path=Subject.Name}"/>
+                            <GridViewColumn Header="Teacher" DisplayMemberBinding="{Binding Path=TeacherName}"/>
+                            <GridViewColumn Header="Room" DisplayMemberBinding="{Binding Path=Room.Classnumber}"/>
+                        </GridView.Columns>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+        <StackPanel Margin="5">
+            
+            <TextBlock FontSize="12" FontWeight="Heavy" TextAlignment="Center">Friday</TextBlock>
+            
+            <ListView  x:Name="Fri">
+                <ListView.View>
+                    <GridView>
+                        <GridView.Columns>
+                            <GridViewColumn Header="LessonStart" DisplayMemberBinding="{Binding Path=Time.Start}"/>
+                            <GridViewColumn Header="LessonEnd" DisplayMemberBinding="{Binding Path=Time.End}"/>
+                            <GridViewColumn Header="Subject" DisplayMemberBinding="{Binding Path=Subject.Name}"/>
+                            <GridViewColumn Header="Teacher" DisplayMemberBinding="{Binding Path=TeacherName}"/>
+                            <GridViewColumn Header="Room" DisplayMemberBinding="{Binding Path=Room.Classnumber}"/>
+                        </GridView.Columns>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+    </UniformGrid>
+</Window>
